@@ -1,3 +1,6 @@
+import 'dotenv/config'
+import expressPkg from 'express'
+const express = expressPkg
 import helmet from 'helmet'
 import pino from 'pino'
 import { Telegraf } from 'telegraf'
